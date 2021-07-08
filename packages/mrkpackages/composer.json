@@ -1,0 +1,32 @@
+{
+    "name": "acer/mrkpackages",
+    "description": "Greetr - A simple Laravel package.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md. Masudul Kabir",
+            "email": "masud.ncse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": {
+
+    },
+    "require": {
+        "php": "7.*",
+        "laravel/tinker": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MrkPackages\\TodoList\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrkPackages\\TodoList\\TodoListServiceProvider"
+            ]
+        }
+    }
+}

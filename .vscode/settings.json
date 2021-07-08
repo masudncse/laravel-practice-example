@@ -1,0 +1,10 @@
+{
+    "phpformatter.additionalExtensions": [
+
+    ],
+    "phpformatter.arguments": [
+    
+        "--level=psr2"
+    ],
+    "phpformatter.composer": true
+}
